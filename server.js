@@ -1,4 +1,5 @@
 var express = require('express');
+var PORT=process.env.PORT || 3000;
 
 var app = express();
 
@@ -8,6 +9,6 @@ app.get('/about',function(req,res){
 })
 
 app.use(express.static(__dirname +'/public'));
-console.log('server running on port 3000 '+'http://localhost:3000/');
+console.log('server running on port'+PORT +'http://localhost:3000/');
 
-app.listen(3000);
+app.listen(PORT);
