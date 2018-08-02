@@ -1,0 +1,19 @@
+{
+  "name": "p2pchatter",
+  "version": "1.0.0",
+  "description": "its a simple video chat application.using webRTC tech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "Video",
+    "chat"
+  ],
+  "author": "W.M.S.R.Thathsara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
